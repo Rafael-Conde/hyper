@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764257537051,
+  "lastUpdate": 1764257604453,
   "repoUrl": "https://github.com/Rafael-Conde/hyper",
   "entries": {
     "pipeline": [
@@ -53329,6 +53329,114 @@ window.BENCHMARK_DATA = {
             "name": "http2_parallel_x10_res_1mb",
             "value": 5122364,
             "range": "± 4637361.30",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be18a92bb51498a2113dcfe15d9da09e1c6c7b0d",
+          "message": "refactor(http1): replace many args of Chunked::step with struct (#3982)\n\nIt's kind of the same thing, but by using a struct, the arguments are\nessentially named, instead of relying of position.",
+          "timestamp": "2025-11-25T16:50:07-05:00",
+          "tree_id": "b552971876bd518a401e9641feb33bda7f24e5cc",
+          "url": "https://github.com/Rafael-Conde/hyper/commit/be18a92bb51498a2113dcfe15d9da09e1c6c7b0d"
+        },
+        "date": 1764257602268,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "http1_consecutive_x1_both_100kb",
+            "value": 67482,
+            "range": "± 2010.21",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_consecutive_x1_both_10mb",
+            "value": 4541028,
+            "range": "± 139739.67",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_consecutive_x1_empty",
+            "value": 21130,
+            "range": "± 324.10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_consecutive_x1_req_10b",
+            "value": 23279,
+            "range": "± 484.81",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_consecutive_x1_empty",
+            "value": 30020,
+            "range": "± 932.31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_consecutive_x1_req_100kb",
+            "value": 95289,
+            "range": "± 3268.86",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_consecutive_x1_req_10b",
+            "value": 33938,
+            "range": "± 673.93",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_empty",
+            "value": 86251,
+            "range": "± 1981.47",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks",
+            "value": 23919581,
+            "range": "± 32439944.21",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks_adaptive_window",
+            "value": 23941952,
+            "range": "± 16412506.31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks_max_window",
+            "value": 7372543,
+            "range": "± 112869.15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10mb",
+            "value": 49025194,
+            "range": "± 1729505.04",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_res_10mb",
+            "value": 57320502,
+            "range": "± 8871972.26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_res_1mb",
+            "value": 5163487,
+            "range": "± 4205120.68",
             "unit": "ns/iter"
           }
         ]
