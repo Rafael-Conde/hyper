@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757349664293,
-  "repoUrl": "https://github.com/hyperium/hyper",
+  "lastUpdate": 1764257537051,
+  "repoUrl": "https://github.com/Rafael-Conde/hyper",
   "entries": {
     "pipeline": [
       {
@@ -10259,6 +10259,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 46259,
             "range": "± 7271.61",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be18a92bb51498a2113dcfe15d9da09e1c6c7b0d",
+          "message": "refactor(http1): replace many args of Chunked::step with struct (#3982)\n\nIt's kind of the same thing, but by using a struct, the arguments are\nessentially named, instead of relying of position.",
+          "timestamp": "2025-11-25T16:50:07-05:00",
+          "tree_id": "b552971876bd518a401e9641feb33bda7f24e5cc",
+          "url": "https://github.com/Rafael-Conde/hyper/commit/be18a92bb51498a2113dcfe15d9da09e1c6c7b0d"
+        },
+        "date": 1764257534617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 51221,
+            "range": "± 7865.83",
             "unit": "ns/iter"
           }
         ]
