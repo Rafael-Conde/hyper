@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764257604453,
+  "lastUpdate": 1794927088660,
   "repoUrl": "https://github.com/Rafael-Conde/hyper",
   "entries": {
     "pipeline": [
@@ -10289,6 +10289,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 51221,
             "range": "± 7865.83",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b7673f9f04f8938fef1158cf87d78c6bfeabafe",
+          "message": "test(http2): test for http2 connection shutdown race of pending reqs (#4276)",
+          "timestamp": "2026-11-17T09:16:22-05:00",
+          "tree_id": "953c47ce61869e28b66cb1708976e32087556e6d",
+          "url": "https://github.com/Rafael-Conde/hyper/commit/6b7673f9f04f8938fef1158cf87d78c6bfeabafe"
+        },
+        "date": 1794927086128,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 49106,
+            "range": "± 14472.39",
             "unit": "ns/iter"
           }
         ]
